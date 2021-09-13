@@ -47,7 +47,7 @@ TARGET_SCREEN_DENSITY := 400
 TARGET_ENABLE_ENCRYPTION := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := tulip_defconfig
+TARGET_KERNEL_CONFIG := AtomX-tulip_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
 
 # Manifest
