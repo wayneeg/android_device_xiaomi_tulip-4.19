@@ -665,12 +665,3 @@ vendor/lib64/sensors.ssc.so|42577aa881baa287ec037c0e59972ad0e0358b08
 # Wifi - from LA.UM.8.2.1.r1-05600-sdm660
 vendor/bin/cnss-daemon
 
-# Thermal (Configs)
-vendor/etc/thermal-engine-battery.conf
-vendor/etc/thermal-engine-battery2.conf
-vendor/etc/thermal-engine-gameing.conf
-vendor/etc/thermal-engine-performance.conf
-vendor/etc/thermal-engine-map.conf
-vendor/etc/thermal-engine-default.conf
-vendor/etc/thermal-engine.conf
-
