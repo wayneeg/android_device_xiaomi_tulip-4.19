@@ -662,6 +662,9 @@ vendor/etc/sensors/sensor_def_qcomdev.conf
 vendor/lib/sensors.ssc.so
 vendor/lib64/sensors.ssc.so
 
+# Wifi - from jasmine
+vendor/bin/cnss-daemon
+
 # Thermal (Configs)
 vendor/etc/thermal-engine-battery.conf
 vendor/etc/thermal-engine-battery2.conf
