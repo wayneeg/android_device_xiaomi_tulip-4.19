@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Inherit from tulip device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -40,3 +40,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 TARGET_VENDOR_PRODUCT_NAME := tulip
 
+# StagOS stuffs
+WITH_GAPPS := true
